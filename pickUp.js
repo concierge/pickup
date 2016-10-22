@@ -1,5 +1,5 @@
-var reddit = require('./../common/reddit.js'),
-    request = require.safe('request'),
+var reddit = require.once(rootPathJoin('core/common/reddit.js')),
+    request = require('request'),
     results = [];
 
 exports.joke = function(callback, waitCallback) {
