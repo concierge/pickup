@@ -1,4 +1,4 @@
-var reddit = require('./../common/reddit.js'),
+var reddit = require('concierge/reddit'),
     request = require('request'),
     results = [];
 
